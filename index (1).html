@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Isle of Coffee - Experience the finest blends and pastries in a cozy, welcoming atmosphere.">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Isle of Coffee</title>
+</head>
+<body>
+
+  <!-- Skip Link for Accessibility -->
+  <a class="skip-link sr-only sr-only-focusable" href="#main-content">Skip to main content</a>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">
+      Isle of Coffee
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#menu">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="jumbotron text-center text-white">
+    <h1 class="display-4">Welcome to Isle of Coffee</h1>
+    <p class="lead">Experience the finest coffee in every cup.</p>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content" class="container">
+    <!-- About Section -->
+    <section id="about" class="my-5">
+      <h2 class="text-center">About Us</h2>
+      <p>At Isle of Coffee, we offer a variety of pastries and baked goods, made fresh daily to complement your coffee. From our delicious muffins to our homemade cookies, there's something for everyone to enjoy. We also strive to support our local community by sourcing ingredients from nearby farms and businesses. Our commitment to sustainability ensures that we minimize our environmental impact while providing you with the highest quality products.</p>
+      <p>We pride ourselves on sourcing the finest coffee beans from around the world. Our baristas are trained to craft the perfect cup, whether you prefer a classic espresso or a specialty latte. Our mission is to create a welcoming environment for coffee enthusiasts and casual drinkers alike. We believe that a good cup of coffee can bring people together and create lasting memories.</p>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="my-5">
+        <h2 class="text-center">Portfolio</h2>
+        <div class="row">
+          <!-- You will need to update the src attributes to the correct image paths -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="assets/croissant cafe.jpeg" class="card-img-top" alt="Latte and Croissant">
+              <div class="card-body">
+                <h5 class="card-title">Latte and Croissant</h5>
+                <p class="card-text">Enjoy a warm latte served with a freshly baked croissant, a perfect start.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="assets/download (36).jpeg" class="card-img-top" alt="Green Tea Latte">
+              <div class="card-body">
+                <h5 class="card-title">Green Tea Latte</h5>
+                <p class="card-text">A creamy, sweet matcha latte, ideal for those looking for a soothing beverage.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="assets/download (67).jpeg" class="card-img-top" alt="Cappuccino">
+              <div class="card-body">
+                <h5 class="card-title">Cappuccino</h5>
+                <p class="card-text">Classic cappuccino with a rich and velvety foam, perfect for coffee lovers.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="assets/Lemon Cream Cheese Cake by J'adore.jpeg" class="card-img-top" alt="Cappuccino">
+              <div class="card-body">
+                <h5 class="card-title">Lemon Cream Cheese Cake</h5>
+                <p class="card-text">Perfect and tastes heavenly.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="assets/Vanilla and Pansy Fairy Cakes with Lavender Buttercream_ Easy Spring Floral Dessert Recipe — Under A Tin Roof.jpeg" class="card-img-top" alt="Cappuccino">
+              <div class="card-body">
+                <h5 class="card-title">Vanilla and Pansy Cake</h5>
+                <p class="card-text">Bestseller and everyone favourite.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="assets/download (65).jpeg" class="card-img-top" alt="Cappuccino">
+              <div class="card-body">
+                <h5 class="card-title">Assorted Cookies</h5>
+                <p class="card-text">For coffee and cookie lovers.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+
+    <!-- Contact Section -->
+    <section id="contact" class="my-5">
+      <h2 class="text-center">Contact Us</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="3" placeholder="Your message"></textarea>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center py-4">
+    <p>&copy; 2024 Isle of Coffee. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
